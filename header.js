@@ -5,7 +5,7 @@ document.writeln('        <li><a href="../index.html">BalD Studio</a></li>');
 document.writeln('        <li>');
 document.writeln('            <a href="#">项目</a>');
 document.writeln('            <ul>');
-document.writeln('                <li><a href="../电费可视化/index.html">bdsc_Beta</a></li>');
+document.writeln('                <li><a href="programs/index.html">bdsc_Beta</a></li>');
 document.writeln('            </ul>');
 document.writeln('        </li>');        
 document.writeln('      </ul>');
