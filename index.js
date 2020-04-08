@@ -45,8 +45,7 @@ function drawLogo(){
     if(logoPos.y <= height/2 + 3){
         noFill();
 		logoAlpha += (160 - logoAlpha)*easing;
-		stroke(60, 60, 60, logoAlpha);
-        // stroke(0, 120, 220, logoAlpha);
+        stroke(0, 120, 220, logoAlpha);
         strokeWeight(logoR/4.47407);
         strokeCap(SQUARE);
         arc(width/2+offset.x*0.5, height/2+offset.y*0.5, logoR, logoR, HALF_PI, TWO_PI);
@@ -106,13 +105,8 @@ function setParticles(){
 	nums = 250;
 	distribution = nums;
 	//Normal Color
-	// color_from = color('#30cfd0');
-	// color_to = color('#330867');
-
-	//For Mourn
-	color_from = color('#FFFFFF');
-	color_to = color('#000000');
-
+	color_from = color('#30cfd0');
+	color_to = color('#330867');
 	noStroke();
 	smooth();
 	
