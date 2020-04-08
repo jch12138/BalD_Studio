@@ -62,9 +62,6 @@ function drawLogo(){
     logoPos.y += (height/2 - logoPos.y)*easing;
     logoTextAlpha += (180 - logoTextAlpha)*easing;
 	text('BalD Studio', logoPos.x-offset.x, logoPos.y-offset.y);
-	textSize(ts*0.2);
-	textFont('SimHei');
-	text('对抗击新冠肺炎疫情斗争牺牲的烈士和逝世同胞表示深切哀悼', logoPos.x-offset.x, logoPos.y-offset.y+ts);
 }
 
 function logoInteract(){
